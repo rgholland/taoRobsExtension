@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE structures SYSTEM "../doc/structures.dtd">
+<structures>
+	<structure id="taoRobsExtension_main" name="Rob\'s Awesome Extension" level="15" group="main">
+		<description />
+		<sections>
+			<section id="taoRobsExtension_main" name="Rob\'s Awesome Extension" url="/taoRobsExtension/TaoRobsExtension/index" />
+			<section id="taoRobsExtension_other" name="Template" url="/taoRobsExtension/TaoRobsExtension/templateExample" />
+		</sections>
+	</structure>
+</structures>
