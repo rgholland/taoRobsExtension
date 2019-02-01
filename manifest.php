@@ -37,6 +37,13 @@ return array(
         array('grant', 'http://www.tao.lu/Ontologies/generis.rdf#taoRobsExtensionManager', array('ext'=>'taoRobsExtension')),
     ),
     'install' => array(
+             "rdf" => array(
+                       __DIR__ . '/scripts/install/item_count.rdf',
+                       __DIR__ . '/scripts/install/item_description.rdf',
+                      ),
+             "php" => array(
+                        \rgholland\taoRobsExtension\scripts\install\RegisterItemUpdateEvent::class,
+                      ),
     ),
     'uninstall' => array(
     ),
