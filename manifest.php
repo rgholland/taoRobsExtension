@@ -27,7 +27,7 @@ return array(
     'label' => 'Rob\'s Awesome Extension',
     'description' => 'New hotness extension',
     'license' => 'GPL-2.0',
-    'version' => '0.1.0',
+    'version' => '0.2.0',
     'author' => 'Rob Holland',
     'requires' => array(
         'tao' => '>=24.3.0'
@@ -45,6 +45,7 @@ return array(
                         \rgholland\taoRobsExtension\scripts\install\RegisterItemUpdateEvent::class,
                       ),
     ),
+    'update' => \rgholland\taoRobsExtension\scripts\update\Updater::class,
     'uninstall' => array(
     ),
     'routes' => array(
